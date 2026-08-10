@@ -1,0 +1,82 @@
+.sslp-landing-page .sslp-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+.sslp-landing-page .sslp-title {
+	font-size: 2.2em;
+	margin-bottom: 8px;
+}
+.sslp-landing-page .sslp-location-badge {
+	display: inline-block;
+	background: #f1f1f1;
+	color: #333;
+	padding: 4px 12px;
+	border-radius: 999px;
+	font-size: 0.85em;
+	margin-bottom: 24px;
+}
+.sslp-landing-page .sslp-featured-image img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+	margin-bottom: 24px;
+}
+.sslp-landing-page .sslp-content {
+	line-height: 1.7;
+	font-size: 1.05em;
+}
+.sslp-landing-page .sslp-content h2 {
+	margin-top: 1.6em;
+}
+.sslp-landing-page .sslp-cta {
+	margin-top: 32px;
+	text-align: center;
+}
+.sslp-landing-page .sslp-cta-button {
+	display: inline-block;
+	background: #1a7f37;
+	color: #fff;
+	padding: 14px 28px;
+	border-radius: 6px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+.sslp-landing-page .sslp-cta-button:hover {
+	background: #14602a;
+	color: #fff;
+}
+
+/* [sslp_directory] hub-page list */
+.sslp-directory-heading {
+	margin-top: 1.4em;
+}
+.sslp-directory-list {
+	columns: 2;
+	column-gap: 32px;
+	list-style: disc;
+	padding-left: 20px;
+}
+@media (max-width: 600px) {
+	.sslp-directory-list {
+		columns: 1;
+	}
+}
+.sslp-directory-sublist {
+	list-style: circle;
+	padding-left: 20px;
+	margin: 4px 0 10px;
+	font-size: 0.92em;
+}
+
+/* Breadcrumb shown on sub-city pages, linking back to the parent city */
+.sslp-landing-page .sslp-breadcrumb {
+	font-size: 0.85em;
+	color: #666;
+	margin-bottom: 12px;
+}
+.sslp-landing-page .sslp-breadcrumb a {
+	color: #666;
+	text-decoration: underline;
+}
